@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+
+}
+
+    .box-one{
+        background-color: red;
+        border: 10px solid purple;
+        height: 100px;
+        width: 100px;
+        padding: 30px ;
+        margin: 60px ;
+        box-sizing: border-box;
+    }
+
+.box-two{
+    background-color: blue;
+    border: 10px solid green;
+    height: 100px;
+    width: 100px;
+    padding: 30px ;
+    margin: 70px ;
+}
