@@ -1,9 +1,6 @@
-# tut-css101
-Notes on CSS by The Odin Project
-
 CSS 101
 
-1. Selector {Property : value} 💣️
+1. Selector {Property : value}
     • <div> is a container used often to wrap content.
     • Selectors simply refer to the HTML elements to which CSS rules apply; they’re what is actually being “selected” for each rule.
     • 4 types – universal,type,class and id
@@ -99,10 +96,7 @@ Another way to think of it is child will only be selected if it is nested insi
   /* some declarations */
 }
 IN THIS => class (B and C) would be selected, but that last element (D) won’t be.
-
-
-
-2. Some Properties: 💣️
+2. Some Properties:
     • color property sets an element’s text color.
     • background-color sets the background color of an element.
     • font-family  can be a single value or a comma-separated list of values that determine what font an element uses. Each font will fall into one of two categories, either a “font family name” like "DejaVu Sans" (we use quotes due to the whitespace between words) or a “generic family name” like sans-serif (generic family names never use quotes).
@@ -117,7 +111,7 @@ height: auto;
 }
 
 
-3. SOME RULES: 💣️
+2. SOME RULES:
     • 
 
 <div class="main">
@@ -169,9 +163,4 @@ In this example, both rules are using ID and class selectors, so neither rule is
 While the  color: red  declaration would take precedence, the  background-color: yellow  declaration would still be applied since there’s no conflicting declaration for it.
 
 => Difference bw .cls1 (space) .cls2 and .cls1.cls2 is that former should be in parent-child relationship and later classes should be siblings
-
-
-
-BOX MODEL:💣️
-
 
